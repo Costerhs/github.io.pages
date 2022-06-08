@@ -4,7 +4,6 @@
 }
 
 .about .container {
-    /* width: 100%; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -25,8 +24,6 @@
     font-family: 'Cardo';
     font-size: 42px;
     color: #1B3764;
-    /*margin-bottom: 20px;
-    margin-top: 20px; */
 }
 
 .about__desc__line {
@@ -56,9 +53,6 @@
     font-weight: 400;
     font-size: 54px;
     line-height: 77px;
-    /* identical to box height, or 143% */
-
-
     color: #1B3764;
 
 }
@@ -69,11 +63,7 @@
     font-weight: 400;
     font-size: 17px;
     line-height: 22px;
-    /* identical to box height, or 127% */
-
-
     color: #969AA0;
-
 }
 
 .analize__vertical {
@@ -115,9 +105,6 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
-    /* identical to box height, or 120% */
-
-
     color: #FFCA42;
 }
 
@@ -173,14 +160,6 @@
         height: auto;
         padding-top: 10px;
     }
-
-    /* .about__desc__title {
-        font-size: 30px;
-    }
-
-    .about__desc__subtitle {
-        font-size: 14px;
-    } */
 
     .about__desc {
         width: 90%;

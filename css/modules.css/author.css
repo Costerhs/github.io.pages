@@ -30,7 +30,6 @@
 
 .authors__books {
     display: flex;
-    /* margin-left: 100px; */
     width: 100%;
 }
 
@@ -69,8 +68,6 @@
     font-family: 'Inter';
     font-size: 21px;
     color: #FFCA42;
-    /* line-height: 52px; */
-
     margin-bottom: 20px;
 }
 
@@ -174,7 +171,6 @@
     }
 
     .authors__img-book img {
-        /* margin: 0 auto; */
         width: 260px;
     }
 
