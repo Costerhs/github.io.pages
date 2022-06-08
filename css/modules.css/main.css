@@ -14,6 +14,14 @@
     margin-left: 24px;
 }
 
+.main__link {
+    cursor: pointer;
+}
+
+.main__link:hover {
+    border-bottom: 1px solid #FFCA42;
+}
+
 .main__undertitle {
     display: flex;
     align-items: center;
@@ -81,7 +89,7 @@
 
 .main__book {}
 
-.main__section {
+.desc-book {
     display: flex;
     flex-direction: column;
     margin-right: 60px;
@@ -89,7 +97,7 @@
     margin-bottom: 30px;
 }
 
-.main__section h2 {
+.desc-book h2 {
     font-family: 'Cardo';
     font-style: normal;
     font-weight: 400;
@@ -99,17 +107,9 @@
     margin-bottom: 10px;
 }
 
-.main__circle {
-    width: 16px;
-    height: 16px;
-    background: #FFCA42;
-    border-radius: 100px;
 
-    margin-right: 6px;
-    margin-top: 6px;
-}
 
-.main__section p {
+.desc-book p {
     font-family: 'Inter';
     font-size: 17px;
     color: #B4C7E7;
@@ -150,11 +150,11 @@
 }
 
 @media (max-width:364px) {
-    .main__section {
+    .desc-book {
         flex-direction: row;
     }
 
-    .main__section p {
+    .desc-book p {
         margin-top: 8px;
     }
 

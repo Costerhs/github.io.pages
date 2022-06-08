@@ -104,7 +104,18 @@
     font-size: 19px;
     letter-spacing: 0.38px;
     color: #1B3764;
+    cursor: pointer;
 
+}
+
+.authors__desc__btn button:hover {
+    color: #FFCA42;
+    border: 2px solid #FFCA42;
+    background: #1B3764;
+}
+
+.authors__desc__btn button:focus {
+    border: 2px solid #0c2650;
 }
 
 @media (max-width:1317px) {
@@ -178,5 +189,11 @@
     .authors__item:first-child {
 
         margin-bottom: 20px;
+    }
+}
+
+@media (min-width:1441px) {
+    .authors__books {
+        justify-content: space-between;
     }
 }
