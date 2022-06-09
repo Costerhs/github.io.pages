@@ -135,7 +135,6 @@
 
 @media (max-width:1107px) {
     .about .container {
-        /* margin-left: 2%; */
         justify-content: center;
         text-align: center;
         flex-direction: column;
