@@ -136,11 +136,13 @@
     .vision__item {
         width: 70%;
         text-align: center;
+        margin-right: 0px;
     }
 
     .vision__item__end {
         justify-content: center;
     }
+
 }
 
 @media(max-width:545px) {

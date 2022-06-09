@@ -8,6 +8,7 @@
 @import url(modules.css/tea.css);
 @import url(modules.css/desc.css);
 @import url(modules.css/vision.css);
+@import url(modules.css/comments.css);
 
 * {
     padding: 0;
@@ -67,4 +68,13 @@ body {
 
     margin-right: 6px;
     margin-top: 6px;
+}
+
+.title {
+    font-family: 'Cardo';
+    font-size: 42px;
+    color: #1B3764;
+
+    margin-bottom: 16px;
+    margin-left: 50px;
 }

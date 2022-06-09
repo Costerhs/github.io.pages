@@ -163,6 +163,11 @@
     .authors__line {
         display: none;
     }
+
+    .authors__title {
+        margin-left: 0px;
+        text-align: center;
+    }
 }
 
 @media (max-width:365px) {

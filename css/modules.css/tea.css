@@ -89,4 +89,8 @@
     .tea section {
         width: auto;
     }
+
+    .tea section h2 {
+        font-size: 32px;
+    }
 }
